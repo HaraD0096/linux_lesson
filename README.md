@@ -1,0 +1,29 @@
+Command
+- docker run -it -d --name centos7 centos:centos7
+- docker ps
+- docker exec -it centos7 bash
+- docker stop centos7
+- docker start centos7
+- ls
+- cd
+- pwd
+- mkdir
+- touch
+- cd /home && ls
+- cp
+- mv
+- rm
+- rm -r
+- rm test1/*.php
+- rm -r test?
+- echo 'nekodeshu' > README.md
+- echo 'nekowaimashu >> README.md
+- cat README.md
+- vi
+- i
+- escKey
+- :w
+- :wq
+- :q!
+- u
+- ctrl + r
