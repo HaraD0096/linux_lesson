@@ -1,0 +1,68 @@
+    1  ls -オプション パス
+    2  ;
+    3  ;
+    4  -a
+    5  ls
+    6  /
+    7  ls/
+    8  home
+    9  ls /usr
+   10  pwd
+   11  cd /root
+   12  pwd
+   13  cd /home
+   14  mkdir test1
+   15  ls
+   16  cd /home
+   17  mkdir test2/test3
+   18  mkdir -p test2/test3
+   19  ls
+   20  ls test2
+   21  touch test1/index.php
+   22  ls test1
+   23  cd /home/test1 && ls
+   24  docker stop centos7
+   25  cd /
+   26  docker stop centos7
+   27  docker start centos7
+   28  docker stop centos7
+   29  docker stop centos7
+   30  docker stop ba5e83fa48ae
+   31  exit
+   32  ls root
+   33  cd root/server_lesson
+   34  ls
+   35  git status
+   36  git commit -m 'lunux_practice2/documents配下に50個のファイルを作成'
+   37  soluna0096@gmail.com
+   38  git config --global user.name "HaraD0096"
+   39  git config --global user.email "soluna0096@gmail.com"
+   40  git commit -m 'lunux_practice2/documents配下に50個のファイルを作成'
+   41  cd lunux_practice2/documents
+   42  mv gizumo{20..40}.md ./trash/gizumo{20..40}
+   43  cd ./trash
+   44  cd ../trash
+   45  mv gizumo{20..40}.md ../trash/gizumo{20..40}
+   46  mv ../documents/gizumo{20..40}.md gizumo{20..40}
+   47  mv gizumo{20..40}.md ../documents/gizumo{20..40}
+   48  ls
+   49  ls ../documents
+   50  mv ../documents/gizumo20.md gizumo20.md
+   51  ls
+   52  mv ../documents/gizumo{21..40}.md gizumo{21..50}.md
+   53  mv ../documents/gizumo{21..40}.md gizumo{21..40}.md
+   54  mv ../documents/gizumo{21..40}.md ./
+   55  ls
+   56  touch ../.gitignore
+   57  ls ../
+   58  ls
+   59  cd ../
+   60  ls
+   61  ls -a
+   62  vi .gitifnore
+   63  ls
+   64  ls -a
+   65  rm .gitifnore
+   66  ls -a
+   67  vi .gitignore
+   68  history 300 > exec_command.log
